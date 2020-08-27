@@ -24,7 +24,7 @@ The PIC18F16Q41 Curiosity Nano Evaluation Kit is preprogramed to demonstrate the
 
 ## Setup
 
-A brand new PIC18F16Q41 Curiosity Nano comes with the code in this repository pre-programmed onto the device. This demo code can be reprogrammed to the PIC18F16Q41 by copying the [hex file](pic18f16q41-cnano-opamp-demo-fw.X\dist\free\production\pic18f16q41-cnano-opamp-demo-fw.X.production) onto the CURIOSITY virtual drive that shows up once the Nano Board is plugged into a PC. The entire project can also be accessed using MPLABX 5.40 or newer.
+A brand new PIC18F16Q41 Curiosity Nano comes with the code in this repository pre-programmed onto the device. This demo code can be reprogrammed to the PIC18F16Q41 by copying the hex file onto the CURIOSITY virtual drive that shows up once the Nano Board is plugged into a PC. The entire project can also be accessed using MPLABX 5.40 or newer.
 
 ## Operation
 
