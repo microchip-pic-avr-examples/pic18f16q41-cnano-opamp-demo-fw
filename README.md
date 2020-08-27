@@ -68,7 +68,7 @@ In this configuration, the OPA is configured as a non-inverting programmable gai
 | OPA1   |  4   | RC3 (OPA1IN1+)   | RC2 (OPA1OUT) |
 
 <img src="images/OPA_NonInvertingPGA.png" alt="MCHP" width="500"/></a>
-<img src="images/OPA_NonInverting_Gain.png" alt="MCHP" width="250"/></a>
+<img src="images/OPA_NonInverting_Gain.PNG" alt="MCHP" width="250"/></a>
 
 ### Configuration 4: Inverting PGA
 
@@ -79,4 +79,4 @@ In this configuration, the OPA is configured as an inverting programmable gain a
 | OPA1   |  3   | RA2 (OPA1IN2-)   | RC2 (OPA1OUT) |
 
 <img src="images/OPA_InvertingPGA.png" alt="MCHP" width="500"/></a>
-<img src="images/OPA_InvertingGain.png" alt="MCHP" width="350"/></a>
+<img src="images/OPA_InvertingGain.PNG" alt="MCHP" width="350"/></a>
