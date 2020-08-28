@@ -213,6 +213,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/C16783/Desktop/MPLABX Projects/pic18f16q41-cnano-opamp-demo-fw/pic18f16q41-cnano-opamp-demo-fw.X/debug/free/pic18f16q41-cnano-opamp-demo-fw_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
@@ -394,6 +396,8 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/Users/C16783/Desktop/MPLABX Projects/pic18f16q41-cnano-opamp-demo-fw/pic18f16q41-cnano-opamp-demo-fw.X/debug/pro/pic18f16q41-cnano-opamp-demo-fw_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
