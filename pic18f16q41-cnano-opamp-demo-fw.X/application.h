@@ -12,9 +12,16 @@
 extern "C" {
 #endif
 
-    int opa_config = 0;
+
     int init_flag = 0;
-    
+
+    enum opa_mode {
+        EXTERNAL = 1,
+        UNITY_GAIN = 2,
+        NON_INVERTING = 3,
+        INVERTING = 4
+    } opa_config;
+
     void IntroSplashMessage(void);
     void GetOpampConfig(void);
     void BlinkLED(int8_t cnt);

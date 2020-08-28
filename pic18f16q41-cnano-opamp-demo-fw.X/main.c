@@ -68,7 +68,7 @@ void main(void) {
     while (1) {
 
         switch (opa_config) {
-            case 1:
+            case EXTERNAL:
                 if (init_flag == 0) {
                     BlinkLED(opa_config);
                     OPA_External();
@@ -81,7 +81,7 @@ void main(void) {
                 SLEEP();
                 break;
 
-            case 2:
+            case UNITY_GAIN:
                 if (init_flag == 0) {
                     BlinkLED(opa_config);
                     OPA_UnityGain();
@@ -94,7 +94,7 @@ void main(void) {
                 SLEEP();
                 break;
 
-            case 3:
+            case NON_INVERTING:
                 if (init_flag == 0) {
                     BlinkLED(opa_config);
                     OPA_NonInverting();
@@ -107,7 +107,7 @@ void main(void) {
                 SLEEP();
                 break;
 
-            case 4:
+            case INVERTING:
                 if (init_flag == 0) {
                     BlinkLED(opa_config);
                     OPA_Inverting();
