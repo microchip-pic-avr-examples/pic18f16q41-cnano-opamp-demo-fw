@@ -3,11 +3,11 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic18f16q41-pir-sensor",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f16q41-cnano-opamp-demo-fw",
         "version": "1.0.0",
-        "displayName": "PIC18F16Q41 PIR Sensor",
-        "projectName": "pic18f16q41-pir-sensor",
-        "shortDescription": "This code example demonstrates how to make a PIR sensor using the advanced analog peripherals found on the Q41 family of devices",
+        "displayName": "PIC18F16Q41 CNANO OPAMP Demo Firmware",
+        "projectName": "pic18f16q41-cnano-opamp-demo-fw",
+        "shortDescription": "This code example gives an out of box demonstration of the OPA module on the Q41 family of devices.",
         "ide": {
                   "name": "MPLABX",
                   "semverRange": ">=5.40.0"
@@ -40,35 +40,23 @@
               "subcategories": [
                   "MCC",
                   [
-                     "Peripherals", "ADCC"
-                  ],
-                  [
-                     "Peripherals", "DAC"
-                  ],
-                  [
                      "Peripherals", "OPA"
                   ],
                   [
                      "Peripherals", "UART"
                   ],
-                  [
-                     "Peripherals", "CMP"
-                  ]
               ],
               "peripherals": [
-                  "ADCC","DAC","OPA","UART","CMP"
+                  "OPA","UART"
               ],
         "keywords": [
             "MCC",
             "Analog",
             "CIP",
-            "PIR",
             "Sensor",
             "OPA",
             "opamp",
-            "ADCC",
             "Operational Amplifier",
-            "Alarm"
         ],
 		"additionalData": {
 			"longDescription": {
