@@ -7,7 +7,7 @@
 
 #include <xc.h>
 #include "application.h"
-#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/system/system.h"
 
 void IntroSplashMessage(void) {
     printf("PIC18F16Q41 Curiosity Nano OPA Demo \r\n");

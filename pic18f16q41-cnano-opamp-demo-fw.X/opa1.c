@@ -1,5 +1,5 @@
 /**
-  OPA1 Generated Driver File
+  OPA1 Driver File
 
   @Company
     Microchip Technology Inc.
@@ -8,17 +8,7 @@
     opa1.c
 
   @Summary
-    This is the generated driver implementation file for the OPA1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
-
-  @Description
-    This header file provides implementations for driver APIs for OPA1.
-    Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.4
-        Device            :  PIC18F16Q41
-        Driver Version    :  2.1.0
-    The generated drivers are tested against the following:
-        Compiler          :  XC8 2.20 and above or later
-        MPLAB             :  MPLAB X 5.40
+    This is the driver implementation file for the OPA1 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs
 */
 
 /*
@@ -71,6 +61,10 @@ void OPA1_Initialize(void)
 
     //EN Enabled; CPON Enabled; UG OPAIN- pin; SOC User Defined Feedback; 
     OPA1CON0 = 0xC0;
+    
+    ANSELAbits.ANSELA2=1;
+    ANSELCbits.ANSELC2=1;
+    ANSELCbits.ANSELC3=1;
 }
 
 inline void OPA1_EnableChargePump(void)
