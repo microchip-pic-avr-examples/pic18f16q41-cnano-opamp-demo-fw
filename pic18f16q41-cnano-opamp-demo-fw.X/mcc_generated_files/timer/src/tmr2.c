@@ -81,8 +81,8 @@ void Timer2_Initialize(void){
     // Set TMR2 to the options selected in the User Interface
     // TCS LFINTOSC; 
     T2CLKCON = 0x4;
-    // TMODE Starts on rising edge on TMR2_ers; TCKSYNC Not Synchronized; TCKPOL Rising Edge; TPSYNC Not Synchronized; 
-    T2HLT = 0x11;
+    // TMODE Starts on rising/falling edge on TMR2_ers; TCKSYNC Not Synchronized; TCKPOL Rising Edge; TPSYNC Not Synchronized; 
+    T2HLT = 0x13;
     // TRSEL T2INPPS pin; 
     T2RST = 0x0;
     // PR 193; 

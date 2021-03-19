@@ -80,8 +80,8 @@ void CLC1_Initialize(void)
     CLCnSEL2 = 0x0;
     // LCD4S CLCIN0 (CLCIN0PPS); 
     CLCnSEL3 = 0x0;
-    // LCG1D1N disabled; LCG1D1T disabled; LCG1D2N disabled; LCG1D2T enabled; LCG1D3N disabled; LCG1D3T disabled; LCG1D4N disabled; LCG1D4T disabled; 
-    CLCnGLS0 = 0x8;
+    // LCG1D1N disabled; LCG1D1T enabled; LCG1D2N disabled; LCG1D2T disabled; LCG1D3N disabled; LCG1D3T disabled; LCG1D4N disabled; LCG1D4T disabled; 
+    CLCnGLS0 = 0x2;
     // LCG2D1N disabled; LCG2D1T disabled; LCG2D2N disabled; LCG2D2T disabled; LCG2D3N disabled; LCG2D3T disabled; LCG2D4N disabled; LCG2D4T disabled; 
     CLCnGLS1 = 0x0;
     // LCG3D1N disabled; LCG3D1T disabled; LCG3D2N disabled; LCG3D2T disabled; LCG3D3N disabled; LCG3D3T disabled; LCG3D4N disabled; LCG3D4T disabled; 
