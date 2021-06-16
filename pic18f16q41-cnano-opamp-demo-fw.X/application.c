@@ -37,7 +37,7 @@ void OPA_External(void) {
     OPA1CON1 = 0x02; //RESON Disabled; NSS OPA1IN2-; 
     OPA1CON2 = 0x22; //NCH OPA1IN-; PCH OPA1IN+; 
     OPA1CON3 = 0x01; //FMS No Connection; PSS OPA1IN1+; 
-    OPA1CON0 = 0xC0; //EN Enabled; User Defined Feedback; 
+    OPA1CON0 = 0xA0; //EN Enabled; User Defined Feedback; 
 }
 
 void OPA_UnityGain(void) {
@@ -47,7 +47,7 @@ void OPA_UnityGain(void) {
     OPA1CON1 = 0x00; //RESON Disabled; NSS OPA1IN0-; 
     OPA1CON2 = 0x02; //NCH No Connection; PCH OPA1IN+; 
     OPA1CON3 = 0x01; //FMS No Connection; PSS OPA1IN1+; 
-    OPA1CON0 = 0xC8; //EN Enabled; Unity Gain Connection Enabled; 
+    OPA1CON0 = 0xA8; //EN Enabled; Unity Gain Connection Enabled; 
 }
 
 void OPA_NonInverting(void) {
@@ -57,7 +57,7 @@ void OPA_NonInverting(void) {
     OPA1CON1 = 0x5F; //GSEL R1 = 4R and R2 = 12R, R2/R1 = 3; RESON Enabled; NSS Vss; 
     OPA1CON2 = 0x12; //NCH GSEL; PCH OPA1IN+; 
     OPA1CON3 = 0x81; //FMS OPA1OUT; PSS OPA1IN1+; 
-    OPA1CON0 = 0xC0; //EN Enabled; CPON Enabled; UG OPAIN- pin; SOC User Defined Feedback; 
+    OPA1CON0 = 0xA0; //EN Enabled; CPON Enabled; UG OPAIN- pin; SOC User Defined Feedback; 
 }
 
 void OPA_Inverting(void) {
@@ -67,5 +67,5 @@ void OPA_Inverting(void) {
     OPA1CON1 = 0x5A; //GSEL R1 = 4R and R2 = 12R, R2/R1 = 3; RESON Enabled; NSS OPA1IN2-; 
     OPA1CON2 = 0x13; //NCH GSEL; PCH Vdd/2; 
     OPA1CON3 = 0x80; //FMS OPA1OUT; PSS OPA1IN0+; 
-    OPA1CON0 = 0xC0; //EN Enabled; CPON Enabled; UG OPAIN- pin; SOC User Defined Feedback; 
+    OPA1CON0 = 0xA0; //EN Enabled; CPON Enabled; UG OPAIN- pin; SOC User Defined Feedback; 
 }
