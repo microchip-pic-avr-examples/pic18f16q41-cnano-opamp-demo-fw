@@ -14,6 +14,7 @@ extern "C" {
 
 
     int init_flag = 0;
+    uint8_t sw0_flag = 0;
 
     enum opa_mode {
         EXTERNAL = 1,
@@ -25,6 +26,7 @@ extern "C" {
     void IntroSplashMessage(void);
     void GetOpampConfig(void);
     void BlinkLED(int8_t cnt);
+    void CLC1_InterruptHandler(void);
     void OPA_External(void);
     void OPA_UnityGain(void);
     void OPA_NonInverting(void);

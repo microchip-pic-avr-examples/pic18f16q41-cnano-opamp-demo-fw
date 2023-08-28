@@ -30,6 +30,10 @@ void BlinkLED(int8_t cnt) {
     }
 }
 
+void CLC1_InterruptHandler(void) {
+    sw0_flag = 1;
+}
+
 void OPA_External(void) {
     printf("OPA Configuration: Direct Connection to External Pins \r\n");
     printf("OPA1OUT = RC2 | OPA1IN+ = RC3 | OPA1IN- = RA2 \r\n\r\n");
