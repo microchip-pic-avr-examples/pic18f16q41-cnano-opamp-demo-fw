@@ -95,11 +95,11 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>nEdbgTool</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.45</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC18F-Q_DFP" vendor="Microchip" version="1.20.405"/>
+        <pack name="PIC18F-Q_DFP" vendor="Microchip" version="1.21.411"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -254,7 +254,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.specifictoolpack"/>
+                  value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion" value="1.10.488"/>
         <property key="voltagevalue" value=""/>
       </Tool>
@@ -290,12 +290,15 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
         <property key="firmware.path"
                   value="Press to browse for a specific firmware version"/>
         <property key="firmware.toolpack"
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
@@ -321,7 +324,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.specifictoolpack"/>
+                  value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion" value="1.10.488"/>
         <property key="voltagevalue" value=""/>
       </nEdbgTool>
@@ -334,11 +337,11 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>nEdbgTool</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>2.41</languageToolchainVersion>
+        <languageToolchainVersion>2.45</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC18F-Q_DFP" vendor="Microchip" version="1.20.405"/>
+        <pack name="PIC18F-Q_DFP" vendor="Microchip" version="1.21.411"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -493,7 +496,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.specifictoolpack"/>
+                  value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion" value="1.10.488"/>
         <property key="voltagevalue" value=""/>
       </Tool>
@@ -529,12 +532,15 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="event.recorder.enabled" value="false"/>
+        <property key="event.recorder.scvd.files" value=""/>
         <property key="firmware.path"
                   value="Press to browse for a specific firmware version"/>
         <property key="firmware.toolpack"
                   value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
         <property key="memories.aux" value="false"/>
         <property key="memories.bootflash" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
@@ -549,8 +555,6 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath"
-                  value="C:/Users/A71800/OneDrive - Microchip Technology Inc/Documents/record2023/MCHP-example/new/pic18f16q41-cnano-opamp-demo-fw.X/debug/free/pic18f16q41-cnano-opamp-demo-fw_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges"
@@ -562,7 +566,7 @@
         <property key="programoptions.preserveuserid" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="toolpack.updateoptions"
-                  value="toolpack.updateoptions.specifictoolpack"/>
+                  value="toolpack.updateoptions.uselatestoolpack"/>
         <property key="toolpack.updateoptions.packversion" value="1.10.488"/>
         <property key="voltagevalue" value=""/>
       </nEdbgTool>

@@ -82,9 +82,9 @@ void PIN_MANAGER_Initialize(void)
     /**
     INLVLx registers
     */
-    INLVLA = 0xB;
-    INLVLB = 0x50;
-    INLVLC = 0xF0;
+    INLVLA = 0x3F;
+    INLVLB = 0xF0;
+    INLVLC = 0xFF;
 
    /**
     RxyI2C | RxyFEAT registers   

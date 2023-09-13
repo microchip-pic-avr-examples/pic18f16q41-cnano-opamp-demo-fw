@@ -7,7 +7,7 @@
  * 
  * @brief This file contains the API prototypes for the CLC1 driver.
  *
- * @version CLC1 Driver Version 1.0.1
+ * @version CLC1 Driver Version 1.1.0
 */
 /*
 © [2023] Microchip Technology Inc. and its subsidiaries.
@@ -37,14 +37,37 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#define CLC1_Initialize  CLC1_Initialize
+#define CLC1_Enable CLC1_Enable
+#define CLC1_Disable CLC1_Disable
+#define CLC1_ISR CLC1_ISR
+#define CLC1_OutputStatusGet CLC1_OutputStatusGet
+#define CLC1_CLCI_SetInterruptHandler CLC1_CLCI_SetInterruptHandler
+
+
 /**
  * @ingroup clc1
  * @brief  Initializes the CLC1. This routine configures the CLC1 specific control registers.
  * @param None.
  * @return None.
- * 
  */
 void CLC1_Initialize(void);
+
+/**
+ * @ingroup clc1
+ * @brief Enables the CLC1 module.     
+ * @param None.
+ * @return None.
+ */
+void CLC1_Enable(void);
+
+/**
+ * @ingroup clc1
+ * @brief Disables the CLC1 module.     
+ * @param None.
+ * @return None.
+ */
+void CLC1_Disable(void);
 
 
 /**
@@ -70,7 +93,7 @@ void CLC1_CLCI_SetInterruptHandler(void (* InterruptHandler)(void));
  * @retval True - Output is 1.
  * @retval False - Output is 0.
  */
-bool CLC1_OutputStatusGet(void);
+bool CLC1_OutputStatusGet(void); 
 
 #endif  // CLC1_H
 /**

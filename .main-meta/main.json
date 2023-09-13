@@ -10,21 +10,21 @@
         "shortDescription": "This code example gives an out of box demonstration of the OPA module on the Q41 family of devices.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=6.05.0"
+            "semverRange": ">=6.15.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.41.0"
+                "semverRange": "^2.45.0"
             }
         ],
         "dfp": {
             "name": "PIC18F-Q_DFP",
-            "semverRange": "^1.20.405"
+            "semverRange": "^1.21.411"
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=5.5.7"
+            "semverRange": ">=5.3.7"
         },
         "device": {
             "metaDataVersion": "1.0.0",

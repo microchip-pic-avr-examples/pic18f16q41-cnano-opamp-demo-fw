@@ -7,7 +7,7 @@
  * 
  * @brief This file contains the API implementations for the CLC1 driver.
  *
- * @version CLC1 Driver Version 1.0.1
+ * @version CLC1 Driver Version 1.1.0
 */
 /*
 © [2023] Microchip Technology Inc. and its subsidiaries.
@@ -37,7 +37,7 @@
 static void (*CLC1_CLCI_InterruptHandler)(void);
 static void CLC1_DefaultCLCI_ISR(void);
 
-void CLC1_Initialize(void)
+void CLC1_Initialize(void) 
 {
     
     // SLCT 0x0; 
@@ -73,6 +73,16 @@ void CLC1_Initialize(void)
     PIE0bits.CLC1IE = 1;
 }
 
+void CLC1_Enable(void) 
+{
+    CLCnCONbits.EN = 1;
+}
+
+void CLC1_Disable(void) 
+{
+    CLCnCONbits.EN = 0;
+}
+
 void CLC1_ISR(void)
 {   
     // Clear the CLC interrupt flag
@@ -95,7 +105,7 @@ static void CLC1_DefaultCLCI_ISR(void)
     //Use CLC1_CLCI_SetInterruptHandler() function to use custom ISR
 }
 
-bool CLC1_OutputStatusGet(void)
+bool CLC1_OutputStatusGet(void) 
 {
     return(CLCDATAbits.CLC1OUT);
 }

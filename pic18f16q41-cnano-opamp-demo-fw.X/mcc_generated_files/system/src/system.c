@@ -40,7 +40,7 @@ void SYSTEM_Initialize(void)
     PIN_MANAGER_Initialize();
     CLC1_Initialize();
     OPA1_Initialize();
-    TMR2_Initialize();
+    Timer2_Initialize();
     UART1_Initialize();
     INTERRUPT_Initialize();
 }
